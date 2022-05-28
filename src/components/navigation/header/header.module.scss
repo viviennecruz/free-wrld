@@ -1,0 +1,15 @@
+$break-tablet: 767px;
+$break-desktop: 1250px;
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: $break-desktop) {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
